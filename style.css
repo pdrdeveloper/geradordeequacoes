@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #c9d1ff, #c4fff1);
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    margin: 12px 0;
+}
+
+#aviso {
+    font-size: 12px;
+    padding: 0 16px;
+}
+
+#resultado {
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.solutionEquation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.aEquation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.finishButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mtf1 {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    margin: 12px 8px;
+}
+
+#mtf1::placeholder {
+    color: black;
+}
+
+#mtf2 {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    margin: 12px 8px;
+}
+
+#mtf2::placeholder {
+    color: black;
+}
+
+#mtf3 {
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    margin: 12px 0;
+}
+
+#mtf3::placeholder {
+    color: black;
+}
+
+.bntInput {
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    border-radius: 16px;
+    background-color: white;
+    margin: 12px 0;
+    transition: all .5s;
+}
+
+.bntInput:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.275);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: #8597ff;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+@media screen and (min-height: 720px) {
+    #aviso {
+        font-size: 22px;
+        padding: 0 16px;
+    }
+    
+    #resultado {
+        font-size: 24px;
+        padding: 0 12px;
+    }
+    
+    .solutionEquation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #mtf1 {
+        width: 220px;
+        height: 60px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 16px;
+    }
+    
+    #mtf1::placeholder {
+        color: black;
+    }
+    
+    #mtf2 {
+        width: 220px;
+        height: 60px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 16px;
+    }
+    
+    #mtf2::placeholder {
+        color: black;
+    }
+
+    #mtf3 {
+        width: 220px;
+        height: 60px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 0;
+    }
+    
+    #mtf3::placeholder {
+        color: black;
+    }
+    .bntInput {
+        width: 320px;
+        height: 75px;
+        text-align: center;
+        outline: none;
+        border: none;
+        color: black;
+        font-size: 18px;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 0;
+        transition: all .5s;
+    }
+    
+    .bntInput:hover {
+        transform: translateY(-3px);
+        cursor: pointer;
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.275);
+    }
+    
+    footer {
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    footer a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #aviso {
+        font-size: 22px;
+        padding: 0 24px;
+    }
+    
+    #resultado {
+        font-size: 24px;
+        padding: 0 12px;
+    }
+    
+    .solutionEquation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    #mtf1 {
+        width: 220px;
+        height: 60px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 16px;
+    }
+    
+    #mtf1::placeholder {
+        color: black;
+    }
+    
+    #mtf2 {
+        width: 220px;
+        height: 60px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 16px;
+    }
+    
+    #mtf2::placeholder {
+        color: black;
+    }
+
+    #mtf3 {
+        width: 220px;
+        height: 60px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 0;
+    }
+    
+    #mtf3::placeholder {
+        color: black;
+    }
+    
+    .bntInput {
+        width: 320px;
+        height: 75px;
+        text-align: center;
+        outline: none;
+        border: none;
+        color: black;
+        font-size: 18px;
+        border-radius: 16px;
+        background-color: white;
+        margin: 12px 0;
+        transition: all .5s;
+    }
+    
+    .bntInput:hover {
+        transform: translateY(-3px);
+        cursor: pointer;
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.275);
+    }
+    
+    footer {
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    footer a {
+        font-size: 16px;
+    }
+
+}

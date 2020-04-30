@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Equações</title>
+</head>
+<body>
+    <h1>Gerador de equações</h1>
+    <p>Um site para facilitar suas questões.</p>
+    <div class="solutionEquation">
+        <input type="number" id="mtf1" placeholder="Primeira Solução">
+        <input type="number" id="mtf2" placeholder="Segunda Solução"> 
+    </div>
+    <div class="aEquation">
+        <input type="number" id="mtf3" placeholder="Digite o a da equação aqui.">
+    </div>
+    <div class="finishButton">
+        <button class="bntInput" type="button" onclick="calcular()">Calcular nota</button>
+    </div>
+    <p id="aviso">Por favor, preencha todos os campos!</p>
+    <p id="resultado"></p>
+    <footer>
+        <a href="https://github.com/pdrdeveloper">&copy;PDR Developer</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
